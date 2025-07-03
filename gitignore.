@@ -1,0 +1,22 @@
+# Executable files
+main
+test
+
+# Object files
+*.o
+
+# Temporary and backup files
+*~
+*.swp
+
+# IDE folders
+.vscode/
+.idea/
+
+# Build output directories
+build/
+bin/
+
+# Operating system files
+.DS_Store
+Thumbs.db

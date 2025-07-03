@@ -1,7 +1,10 @@
+#yair340@gmail.com
 CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra -Werror -pedantic
+
 SRC = main.cpp
 HEADERS = MyContainer.hpp
+
 TARGET = main
 TEST = test
 VALGRIND_FLAGS = --leak-check=full --show-leak-kinds=all
