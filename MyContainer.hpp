@@ -1,3 +1,4 @@
+//yair340@gmail.com
 #pragma once
 #include <vector>
 #include <iostream>
@@ -6,7 +7,7 @@
 
 namespace myCont {
     // Generic class
-    template<typename T>
+    template<typename T = int>
     class MyContainer {
         private:
             std::vector<T> data;
